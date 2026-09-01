@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Minimal manifest for the library module.
+  No Activity declarations are needed here – the host app supplies the Activity context.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abcdrewardz">
+</manifest>

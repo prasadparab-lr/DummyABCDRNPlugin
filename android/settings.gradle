@@ -1,0 +1,28 @@
+// This file is only used when the Android module is built in isolation
+// (e.g. during local development / testing). When consumed as a dependency
+// by a React Native app the host app's settings.gradle takes precedence.
+
+rootProject.name = 'react-native-abcd-rewardz'
+
+// pluginManagement {
+//     repositories {
+//         google()
+//         mavenCentral()
+//         gradlePluginPortal()
+//     }
+// }
+// dependencyResolutionManagement {
+//     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//     repositories {
+//         google()
+//         mavenCentral()
+
+//         maven {
+//             url = uri("https://maven.pkg.github.com/elitesdk/Android-SDK")
+//             credentials {
+//                 username = "elitesdk"
+//                 password = "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"
+//             }
+//         }
+//     }
+// }

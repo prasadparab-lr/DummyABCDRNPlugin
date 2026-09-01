@@ -1,0 +1,47 @@
+{
+  "name": "react-native-abcd-rewardz",
+  "version": "1.0.0",
+  "description": "React Native plugin wrapper for the Loylty Rewardz (ABCD) SDK for Android and iOS.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/",
+    "android/",
+    "ios/",
+    "react-native-abcd-rewardz.podspec",
+    "!android/build/",
+    "!ios/build/",
+    "!**/__tests__/",
+    "!**/__fixtures__/",
+    "!**/__mocks__/"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "rm -rf lib",
+    "prepare": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "loylty",
+    "rewardz",
+    "abcd",
+    "sdk"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/react-native-abcd-rewardz.git"
+  },
+  "author": "Your Name <you@example.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-native": ">=0.68.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.72.0",
+    "typescript": "^5.0.0"
+  }
+}
