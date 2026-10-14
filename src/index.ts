@@ -1,5 +1,5 @@
 /**
- * react-native-abcd-rewardz – public API
+ * react-native-abcd-rewardz – public API for clients
  */
 
 export { useABCSdk } from './useABCSdk';
